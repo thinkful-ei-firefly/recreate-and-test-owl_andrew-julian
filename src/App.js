@@ -5,7 +5,8 @@ import ParticipantSideBar from './ParticipantSideBar';
 class App extends Component {
   static defaultProps = {
     store: {
-      participants: []
+      participants: [],
+      chatEvents: []
     }
   };
 
