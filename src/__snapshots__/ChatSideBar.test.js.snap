@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="ChatSideBar"
+>
+  <div>
+    &lt;img class="chatAvatar" src=url&gt;&lt;p class="chatPrefix"&gt;srting 1/3 19&lt;/p&gt;&lt;p class="chatMessage"&gt;Hello world&lt;/p&gt;
+  </div>
+  <div>
+    &lt;p className="notification"&gt;srting gave a thumbs up&lt;/p&gt;&lt;span id='thumbsup' className="tui-icon icon-thumbsup"&gt;&lt;/span&gt;
+  </div>
+</div>
+`;
