@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import ParticipantSideBar from './ParticipantSideBar';
+import ChatSideBar from './ChatSideBar';
 
 class App extends Component {
   static defaultProps = {
@@ -13,8 +14,8 @@ class App extends Component {
   render() {
     const { store } = this.props
     return (
-      <ParticipantSideBar
-        participants={store.participants}
+      <ChatSideBar
+        chatEvents={store.chatEvents}
         />
     );
   }
