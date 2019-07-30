@@ -3,6 +3,7 @@ import Participant from './Participant';
 
 //Prop = array of objects; Each object has keys of id, name, avatar, inSession, and onStage;
 
+
 function ParticipantSideBar(props) {
   return (
     <div className="ParticipantSideBar">

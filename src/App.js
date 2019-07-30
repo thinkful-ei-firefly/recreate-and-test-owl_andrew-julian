@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import ParticipantSideBar from './ParticipantSideBar';
+import Stage from './Stage';
 
 class App extends Component {
   static defaultProps = {
@@ -12,9 +13,11 @@ class App extends Component {
   render() {
     const { store } = this.props
     return (
-      <ParticipantSideBar
-        participants={store.participants}
-        />
+      // <ParticipantSideBar
+      //   participants={store.participants}
+      //   />
+      <Stage participants={store.participants}/>
+
     );
   }
 }
