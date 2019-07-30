@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="ParticipantSideBar"
+>
+  <div
+    className="participant inSession"
+    id={1}
+  >
+    <img
+      alt="avatar"
+      src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+    />
+    <h4>
+      Koren Templeton
+    </h4>
+    <div
+      className="onStageStatus onStage"
+    >
+      <h6>
+        •
+      </h6>
+      <h5>
+        on stage
+      </h5>
+    </div>
+  </div>
+  <div
+    className="participant inSession"
+    id={2}
+  >
+    <img
+      alt="avatar"
+      src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+    />
+    <h4>
+      Caty Flucker
+    </h4>
+    <div
+      className="onStageStatus notOnStage"
+    >
+      <h6>
+        •
+      </h6>
+      <h5>
+        in session
+      </h5>
+    </div>
+  </div>
+</div>
+`;
